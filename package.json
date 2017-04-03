@@ -1,0 +1,24 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "mean auth app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "busboy-body-parser": "^0.3.0",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "response-time": "^2.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
